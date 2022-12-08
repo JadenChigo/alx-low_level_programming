@@ -7,5 +7,6 @@
  */ 
 int main(void)
 {
+	printf("Only pre process this")
 	return (0);
 }
