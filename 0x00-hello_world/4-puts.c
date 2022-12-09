@@ -5,9 +5,10 @@
  *
  * Return: Always 0 (Success)
  */
-int main()
+int main(void)
 {
-	char str1[] = "Programmiing is like building a multilingual puzzle";
-	puts(str1);
+	char str[] = "\"Programming is like building a multilingual puzzle";
+
+	puts(str);
 	return (0);
 }
