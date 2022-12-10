@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <limits.h>
 
 /**
  *  main - Entry point
@@ -13,11 +14,11 @@ int main(void)
 	long long int d;
 	float e;
 
-	printf("Size of a char: %lu.\n", (unsigned long)sizeof(a), byte);
-	printf("Size of an int: %lu.\n", (unsigned long)sizeof(b, byte));
-	printf("Size of a long int: %lu.\n", (unsigned long)sizeof(c), byte);
-	printf("Size of a long long int: %lu.\n", (unsigned long)sizeof(d), byte);
-	printf("Size of a float: %lu.\n", (unsigned long)sizeof(e), byte);
+	printf("Size of a char: %lu.\n", (unsigned long)sizeof(a), "byte(s)");
+	printf("Size of an int: %lu.\n", (unsigned long)sizeof(b), "byte(s)");
+	printf("Size of a long int: %lu.\n", (unsigned long)sizeof(c), "byte(s)");
+	printf("Size of a long long int: %lu.\n", (unsigned long)sizeof(d), "byte(s)");
+	printf("Size of a float: %lu.\n", (unsigned long)sizeof(e), "byte(s)");
 
 	return (0);
 }
