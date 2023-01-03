@@ -2,9 +2,9 @@
 
 /**
  * *_memset - fills the memory with constant byte
- * s: memory area
- * n: the size of memory area
- * b: the content of memory area
+ * @s: memory area
+ * @n: the size of memory area
+ * @b: the content of memory area
  * Return: s
  */
 char *_memset(char *s, char b, unsigned int n)
@@ -15,5 +15,5 @@ char *_memset(char *s, char b, unsigned int n)
 	{
 		s[i] = (char)b;
 	}
-	return(s);
+	return (s);
 }
